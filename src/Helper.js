@@ -1,0 +1,12 @@
+import axios from 'axios';
+import {Dimensions} from 'react-native';
+export const primaryColorButton = '#121b2a';
+export const secondaryColorButton = '#fff';
+export const cancelColorButton = '#808080';
+export const cardColor = '#28323b';
+export const lightBlue = '#548e9a';
+export const black = '#000';
+export const w = Dimensions.get('window').width;
+export const h = Dimensions.get('window').height;
+export const width = h / w > 1.6 ? w : 500;
+export const height = h / w > 1.6 ? h : 900;
